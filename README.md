@@ -82,16 +82,4 @@ export default {
 
 ```
 **配置项参数**
-|  配置项	| 类型 | 默认值 | 说明| 备注|
-|-- |--|--|--|--|
-| show |  Boolean |false | 是否显示加载效果, |可选值为true, false |
-| timeout|  Number | 30000| 加载效果最大显示时间， 超过时间则自动隐藏 | 大于等于零的正整数 |
-| showIcon|  Boolean |true| 是否显示加载图标| 可选值为true, false|
-|iconClass | String | iconfont icon-time| 显示加载图标的样式| 基于iconfont，也可以自定义, 插件内置五种加载效果： icon-wheel ， icon-circle，icon-loading, icon-step, icon-time, 具体效果表格下方的图片： |
-| text|  String | '加载中...'| 设置加载时显示的文本,|可以是任何文本|
-| showMask|  Boolean |true| 是是否需要遮罩层|可选值为true, false |
-| maskStyle|  Object | {}| 遮罩层的样式| 以json形式设置样式， 如： { ‘border’: '1px solid red;'} |
-| mainStyle|  Object | {}| 加载效果中心主体结构的样式|  用法同 maskStyle|
-| fullScreen|  Boolean |true| 是否全屏显示| 当前加载效果是基于绑定元素进行绝对定位，局部显示，如果想要全屏显示加载效果，可以将该值设置为true，可选值为true, false |
-
- ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190901184133917.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190901200912753.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0dWRlbnRlbmdsaXNo,size_16,color_FFFFFF,t_70)
