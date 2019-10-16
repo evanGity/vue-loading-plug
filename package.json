@@ -1,14 +1,14 @@
 {
   "name": "vue-loading-plug",
   "description": "一个基于vue的，可动态配置状态的加载效果插件",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "author": "2315792511@qq.com",
   "license": "MIT",
   "main": "dist/index.js",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "www.xxx.com"
+    "url": "https://github.com/evanGity/vue-loading-plug"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
@@ -28,8 +28,10 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-stage-3": "^6.24.1",
     "cross-env": "^5.0.5",
+    "cross-spawn": "^6.0.5",
     "css-loader": "^0.28.7",
     "file-loader": "^1.1.4",
+    "nice-try": "^2.0.0",
     "node-sass": "^4.5.3",
     "postcss-import": "^12.0.1",
     "postcss-url": "^8.0.0",
